@@ -8,4 +8,3 @@ print(f'Índice de la subcadena es : {indice}')
 indice=cadena.find('Hola')
 print(f'Índice de la subcadena es : {indice}')
 
-ff
