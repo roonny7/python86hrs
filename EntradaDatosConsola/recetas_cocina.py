@@ -9,4 +9,4 @@ print('\nDatos de la receta ')
 print(f'Nombre de la receta : {nombre_receta}')
 print((f'Ingredientes : {ingredientes}'))
 print(f'Tiempo de preparación : {tiempo} minutos')
-print(f'Dificultad : {dificultad}');
+print(f'Dificultad : {dificultad}')
