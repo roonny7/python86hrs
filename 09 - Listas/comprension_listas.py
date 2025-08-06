@@ -14,3 +14,7 @@ print(pares)
 nombres = ['Ana', 'Jeronimo', 'Carlos']
 saludando = [f'Hola {nombre}' for nombre in nombres ]
 print(saludando)
+
+33491
+13035
+
