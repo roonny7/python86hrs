@@ -1,0 +1,1 @@
+print('Solo instalar postgress y usar pgadmin')
