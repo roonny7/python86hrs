@@ -1,0 +1,19 @@
+import psycopg2
+
+conexion = psycopg2.connect(user='postgres',password='123456',host='127.0.0.1',port=5432,database='nigger_bd')
+
+print(conexion)
+
+try:
+    with conexion:
+        with conexion.cursor() as cursor:
+            sentencia = "SELECT * FROM personas WHERE id_persona = %s"
+            id_persona = int(input('Rola el id : '))
+            cursor.execute(sentencia, (id_persona,) )
+            registros = cursor.fetchone()
+            print(registros)
+
+except Exception as e:
+    print(f'Ocurrió un error : {e}')
+finally:
+    conexion.close()
