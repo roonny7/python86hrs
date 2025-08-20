@@ -1,46 +1,31 @@
 from logger_base import log
-from psycopg2 import pool
-import sys
+from psycopg_pool import ConnectionPool
+
 
 class Conexion:
-    _DATABASE = "nigger_bd"
-    _USERNAME = 'postgres'
-    _PASSWORD = '123456'
-    _DB_PORT = '5432'
-    _HOST = '127.0.0.1'
-    _MIN_CON = 1
-    _MAX_CON = 5
-    _pool = None
+    _pool = ConnectionPool(
+        conninfo="host=127.0.0.1 port=5432 dbname=nigger_bd user=postgres password=123456",
+        min_size=1,
+        max_size=5,
+        timeout=5
+    )
 
     @classmethod
-    def obtenerPool(cls):
-        if cls._pool is None:
-            try:
-                cls._pool = pool.SimpleConnectionPool(cls._MIN_CON, cls._MAX_CON, host = cls._HOST, user = cls._USERNAME, password = cls._PASSWORD, port = cls._DB_PORT, database = cls._DATABASE)
-                log.debug(f'Creación de pool exitosa {cls._pool}')
-                return cls._pool
+    def obtener_conexion(cls):
+        return cls._pool.connection()
 
-            except Exception as e:
-                log.error(f'Excepcion en pool : {e}')
-        else:
-            return cls._pool
-
-    @classmethod
-    def obtenerConexion(cls):
-        conexion = cls.obtenerPool().getconn()
-        log.debug(f'Conexión obtenida del pool : {conexion}')
-        return conexion
-
-
-    @classmethod
-    def liberarConexion(cls, conexion):
-        cls.obtenerPool().putconn(conexion)
-        log.debug(f'Regresamos la conexión al pool : { conexion}')
 
 if __name__ == '__main__':
-    conexion1 = Conexion.obtenerConexion()
-    conexion2 = Conexion.obtenerConexion()
-    conexion3 = Conexion.obtenerConexion()
-    conexion4 = Conexion.obtenerConexion()
-    conexion5 = Conexion.obtenerConexion()
-    conexion6 = Conexion.obtenerConexion()
+    Conexion._pool.check()
+    log.debug('Pool de conexiones verificado correctamente.')
+
+    # Caso con with, donde se reutilizan las conexiones
+    for i in range(10):  # Pide 10 conexiones, pero se liberan automáticamente
+        with Conexion.obtener_conexion() as conexion:
+            log.debug(f'Conexión #{i + 1} abierta y cerrada: id={id(conexion)}')
+
+    Conexion._pool.close()
+    log.debug('Pool de conexiones cerrado correctamente.')
+
+    # Las conexiones de liberar de manera automatica al user with
+    # y el metodo _pool.connection()

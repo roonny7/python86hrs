@@ -9,9 +9,9 @@ class Persona:
 
     def __str__(self):
         return f'''
-                Id Persona : { self._id_persona}, nombre = {self._nombre},
-                Apellido : {self._apellido}, Email : {self._email}
-                '''
+            Id Persona: {self._id_persona}, Nombre: {self._nombre},
+            Apellido: {self._apellido}, Email: {self._email}
+        '''
 
     @property
     def id_persona(self):
@@ -31,7 +31,7 @@ class Persona:
 
     @property
     def apellido(self):
-        return self._apellido
+        return  self._apellido
 
     @apellido.setter
     def apellido(self, apellido):
@@ -45,9 +45,12 @@ class Persona:
     def email(self, email):
         self._email = email
 
-
 if __name__ == '__main__':
-    persona1 = Persona(1,'Juan', 'Perez', 'juanperez@gmail.com')
+    persona1 = Persona(1, 'Juan', 'Perez', 'jperez@mail.com')
     log.debug(persona1)
-    persona1 = Persona(nombre = 'Elsa', apellido='Bores', email='elsabores@gmail.com')
+    # Simular un insert
+    persona1 = Persona(nombre='Juan', apellido='Perez', email='jperez@mail.com')
+    log.debug(persona1)
+    # Simular un delete
+    persona1 = Persona(id_persona=1)
     log.debug(persona1)
