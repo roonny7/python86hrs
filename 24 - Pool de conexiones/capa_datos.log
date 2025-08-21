@@ -246,3 +246,36 @@
 04:40:47 PM: DEBUG [conexion.py:25] Conexión #9 abierta y cerrada: id=4358056336
 04:40:47 PM: DEBUG [conexion.py:25] Conexión #10 abierta y cerrada: id=4357762960
 04:40:47 PM: DEBUG [conexion.py:28] Pool de conexiones cerrado correctamente.
+04:44:50 PM: DEBUG [persona_dao.py:74] 
+            Id Persona: 1, Nombre: Elsa,
+            Apellido: Bueso, Email: elsabueso@gmail.com
+        
+04:44:50 PM: DEBUG [persona_dao.py:74] 
+            Id Persona: 2, Nombre: Elsa,
+            Apellido: Badillo, Email: elsabadillo@gmail.com
+        
+04:44:50 PM: DEBUG [persona_dao.py:74] 
+            Id Persona: 3, Nombre: Elpay,
+            Apellido: Azo, Email: elpayaso@gmail.com
+        
+04:44:50 PM: DEBUG [persona_dao.py:74] 
+            Id Persona: 4, Nombre: Elsa,
+            Apellido: borin, Email: jorgito@gmail.com
+        
+04:44:50 PM: DEBUG [persona_dao.py:74] 
+            Id Persona: 5, Nombre: Marta,
+            Apellido: Legas, Email: martalegas@gmail.com
+        
+04:44:50 PM: DEBUG [persona_dao.py:74] 
+            Id Persona: 6, Nombre: Elsa,
+            Apellido: broso, Email: mosquito@gmail.com
+        
+04:44:50 PM: DEBUG [persona_dao.py:74] 
+            Id Persona: 7, Nombre: Babas,
+            Apellido: muchas, Email: babitas@gmail.com
+        
+04:44:50 PM: DEBUG [persona_dao.py:74] 
+            Id Persona: 8, Nombre: Snake,
+            Apellido: Eyes, Email: snakeeyes@gmail.com
+        
+04:44:50 PM: DEBUG [persona_dao.py:78] Pool de conexiones cerrado correctamente.

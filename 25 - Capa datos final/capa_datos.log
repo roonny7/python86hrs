@@ -1,0 +1,678 @@
+12:00:35 PM: DEBUG [logger_base.py:12] Mensaje a nivel debug
+12:00:35 PM: INFO [logger_base.py:13] Mensaje a nivel info
+12:00:35 PM: WARNING [logger_base.py:14] Mensaje a nivel de warning
+12:00:35 PM: ERROR [logger_base.py:15] Mensaje a nivel de error
+12:00:35 PM: CRITICAL [logger_base.py:16] Mensaje a nivel critico
+12:53:56 PM: DEBUG [persona.py:50] 
+            Id Persona: 1, Nombre: Juan,
+            Apellido: Perez, Email: jperez@mail.com
+        
+12:53:56 PM: DEBUG [persona.py:53] 
+            Id Persona: None, Nombre: Juan,
+            Apellido: Perez, Email: jperez@mail.com
+        
+12:53:56 PM: DEBUG [persona.py:56] 
+            Id Persona: 1, Nombre: None,
+            Apellido: None, Email: None
+        
+05:16:11 PM: DEBUG [conexion.py:25] Conexión exitosa: user=postgres dbname=test_db host=127.0.0.1 hostaddr=127.0.0.1 sslcertmode=allow
+05:16:11 PM: DEBUG [conexion.py:38] Se abrió correctamente el cursor: <psycopg.Cursor [no result] [IDLE] (host=127.0.0.1 user=postgres database=test_db) at 0x2b2ce7fc950>
+05:48:55 PM: DEBUG [conexion.py:25] Conexión exitosa: user=postgres dbname=test_db host=127.0.0.1 hostaddr=127.0.0.1 sslcertmode=allow
+05:48:55 PM: DEBUG [conexion.py:38] Se abrió correctamente el cursor: <psycopg.Cursor [no result] [IDLE] (host=127.0.0.1 user=postgres database=test_db) at 0x1a32255c950>
+05:48:55 PM: DEBUG [persona_dao.py:29] 
+            Id Persona: 1, Nombre: Juan,
+            Apellido: Perez, Email: jperez@mail.com
+        
+05:48:55 PM: DEBUG [persona_dao.py:29] 
+            Id Persona: 2, Nombre: Ivonne,
+            Apellido: Gutierrez, Email: igutierrez@mail.com
+        
+05:48:55 PM: DEBUG [persona_dao.py:29] 
+            Id Persona: 3, Nombre: Carlos,
+            Apellido: Lara, Email: clara@mail.com
+        
+05:48:55 PM: DEBUG [persona_dao.py:29] 
+            Id Persona: 4, Nombre: Maria,
+            Apellido: Esparza, Email: mesparza@mail.com
+        
+05:48:55 PM: DEBUG [persona_dao.py:29] 
+            Id Persona: 5, Nombre: Rocio,
+            Apellido: Mijares, Email: rmijares@mail.com
+        
+05:48:55 PM: DEBUG [persona_dao.py:29] 
+            Id Persona: 6, Nombre: Alex,
+            Apellido: Rojas, Email: arojas@mail.com
+        
+06:00:09 PM: DEBUG [conexion.py:25] Conexión exitosa: user=postgres dbname=test_db host=127.0.0.1 hostaddr=127.0.0.1 sslcertmode=allow
+06:00:09 PM: DEBUG [conexion.py:38] Se abrió correctamente el cursor: <psycopg.Cursor [no result] [IDLE] (host=127.0.0.1 user=postgres database=test_db) at 0x2010692c950>
+06:00:09 PM: DEBUG [persona_dao.py:32] Persona insertada: 
+            Id Persona: None, Nombre: Pedro,
+            Apellido: Najera, Email: pnajera@mail.com
+        
+06:00:09 PM: DEBUG [persona_dao.py:39] Personas insertadas: 1
+06:00:58 PM: DEBUG [conexion.py:25] Conexión exitosa: user=postgres dbname=test_db host=127.0.0.1 hostaddr=127.0.0.1 sslcertmode=allow
+06:00:58 PM: DEBUG [conexion.py:38] Se abrió correctamente el cursor: <psycopg.Cursor [no result] [IDLE] (host=127.0.0.1 user=postgres database=test_db) at 0x207176bc950>
+06:00:58 PM: DEBUG [persona_dao.py:33] Persona insertada: 
+            Id Persona: None, Nombre: Pedro,
+            Apellido: Najera, Email: pnajera@mail.com
+        
+06:00:58 PM: DEBUG [persona_dao.py:40] Personas insertadas: 1
+06:07:32 PM: DEBUG [conexion.py:25] Conexión exitosa: user=postgres dbname=test_db host=127.0.0.1 hostaddr=127.0.0.1 sslcertmode=allow
+06:07:32 PM: DEBUG [conexion.py:38] Se abrió correctamente el cursor: <psycopg.Cursor [no result] [IDLE] (host=127.0.0.1 user=postgres database=test_db) at 0x267b83dc950>
+06:07:32 PM: DEBUG [persona_dao.py:31] Persona insertada: 
+            Id Persona: None, Nombre: Pedro,
+            Apellido: Najera, Email: pnajera@mail.com
+        
+06:07:32 PM: DEBUG [persona_dao.py:38] Personas insertadas: 1
+06:12:47 PM: DEBUG [conexion.py:23] Conexión abierta exitosamente: user=postgres dbname=test_db host=127.0.0.1 hostaddr=127.0.0.1 sslcertmode=allow
+06:13:47 PM: DEBUG [persona_dao.py:33] Persona insertada: 
+            Id Persona: None, Nombre: Pedro,
+            Apellido: Najera, Email: pnajera@mail.com
+        
+06:13:47 PM: DEBUG [persona_dao.py:40] Personas insertadas: 1
+06:13:48 PM: DEBUG [persona_dao.py:45] 
+            Id Persona: 1, Nombre: Juan,
+            Apellido: Perez, Email: jperez@mail.com
+        
+06:13:48 PM: DEBUG [persona_dao.py:45] 
+            Id Persona: 2, Nombre: Ivonne,
+            Apellido: Gutierrez, Email: igutierrez@mail.com
+        
+06:13:48 PM: DEBUG [persona_dao.py:45] 
+            Id Persona: 3, Nombre: Carlos,
+            Apellido: Lara, Email: clara@mail.com
+        
+06:13:48 PM: DEBUG [persona_dao.py:45] 
+            Id Persona: 4, Nombre: Maria,
+            Apellido: Esparza, Email: mesparza@mail.com
+        
+06:13:48 PM: DEBUG [persona_dao.py:45] 
+            Id Persona: 5, Nombre: Rocio,
+            Apellido: Mijares, Email: rmijares@mail.com
+        
+06:13:48 PM: DEBUG [persona_dao.py:45] 
+            Id Persona: 6, Nombre: Alex,
+            Apellido: Rojas, Email: arojas@mail.com
+        
+06:13:48 PM: DEBUG [persona_dao.py:45] 
+            Id Persona: 7, Nombre: Pedro,
+            Apellido: Najera, Email: pnajera@mail.com
+        
+06:13:48 PM: DEBUG [persona_dao.py:45] 
+            Id Persona: 8, Nombre: Pedro,
+            Apellido: Najera, Email: pnajera@mail.com
+        
+06:13:48 PM: DEBUG [persona_dao.py:45] 
+            Id Persona: 10, Nombre: Pedro,
+            Apellido: Najera, Email: pnajera@mail.com
+        
+06:35:03 PM: DEBUG [conexion.py:23] Conexión abierta exitosamente: user=postgres dbname=test_db host=127.0.0.1 hostaddr=127.0.0.1 sslcertmode=allow
+06:36:01 PM: DEBUG [conexion.py:23] Conexión abierta exitosamente: user=postgres dbname=test_db host=127.0.0.1 hostaddr=127.0.0.1 sslcertmode=allow
+06:43:33 PM: DEBUG [persona_dao.py:42] 
+            Id Persona: 1, Nombre: Juan,
+            Apellido: Perez, Email: jperez@mail.com
+        
+06:43:33 PM: DEBUG [persona_dao.py:42] 
+            Id Persona: 2, Nombre: Ivonne,
+            Apellido: Gutierrez, Email: igutierrez@mail.com
+        
+06:43:33 PM: DEBUG [persona_dao.py:42] 
+            Id Persona: 3, Nombre: Carlos,
+            Apellido: Lara, Email: clara@mail.com
+        
+06:43:33 PM: DEBUG [persona_dao.py:42] 
+            Id Persona: 4, Nombre: Maria,
+            Apellido: Esparza, Email: mesparza@mail.com
+        
+06:43:33 PM: DEBUG [persona_dao.py:42] 
+            Id Persona: 5, Nombre: Rocio,
+            Apellido: Mijares, Email: rmijares@mail.com
+        
+06:43:33 PM: DEBUG [persona_dao.py:42] 
+            Id Persona: 6, Nombre: Alex,
+            Apellido: Rojas, Email: arojas@mail.com
+        
+06:43:33 PM: DEBUG [persona_dao.py:42] 
+            Id Persona: 7, Nombre: Pedro,
+            Apellido: Najera, Email: pnajera@mail.com
+        
+06:43:33 PM: DEBUG [persona_dao.py:42] 
+            Id Persona: 8, Nombre: Pedro,
+            Apellido: Najera, Email: pnajera@mail.com
+        
+06:43:33 PM: DEBUG [persona_dao.py:42] 
+            Id Persona: 10, Nombre: Pedro,
+            Apellido: Najera, Email: pnajera@mail.com
+        
+11:21:19 AM: DEBUG [persona_dao.py:42] Persona actualizada: 
+            Id Persona: 1, Nombre: Juan Carlos,
+            Apellido: Juarez, Email: cjjuarez@mail.com
+        
+11:21:19 AM: DEBUG [persona_dao.py:55] Personas actualizadas: 1
+11:21:19 AM: DEBUG [persona_dao.py:60] 
+            Id Persona: 1, Nombre: Juan Carlos,
+            Apellido: Juarez, Email: cjjuarez@mail.com
+        
+11:21:19 AM: DEBUG [persona_dao.py:60] 
+            Id Persona: 2, Nombre: Ivonne,
+            Apellido: Gutierrez, Email: igutierrez@mail.com
+        
+11:21:19 AM: DEBUG [persona_dao.py:60] 
+            Id Persona: 3, Nombre: Carlos,
+            Apellido: Lara, Email: clara@mail.com
+        
+11:21:19 AM: DEBUG [persona_dao.py:60] 
+            Id Persona: 4, Nombre: Maria,
+            Apellido: Esparza, Email: mesparza@mail.com
+        
+11:21:19 AM: DEBUG [persona_dao.py:60] 
+            Id Persona: 5, Nombre: Rocio,
+            Apellido: Mijares, Email: rmijares@mail.com
+        
+11:21:19 AM: DEBUG [persona_dao.py:60] 
+            Id Persona: 6, Nombre: Alex,
+            Apellido: Rojas, Email: arojas@mail.com
+        
+11:21:19 AM: DEBUG [persona_dao.py:60] 
+            Id Persona: 7, Nombre: Pedro,
+            Apellido: Najera, Email: pnajera@mail.com
+        
+11:50:40 AM: DEBUG [persona_dao.py:51] Objeto eliminado: 
+            Id Persona: 7, Nombre: None,
+            Apellido: None, Email: None
+        
+11:50:40 AM: DEBUG [persona_dao.py:69] Personas eliminadas: 1
+11:50:40 AM: DEBUG [persona_dao.py:74] 
+            Id Persona: 1, Nombre: Juan Carlos,
+            Apellido: Juarez, Email: cjjuarez@mail.com
+        
+11:50:40 AM: DEBUG [persona_dao.py:74] 
+            Id Persona: 2, Nombre: Ivonne,
+            Apellido: Gutierrez, Email: igutierrez@mail.com
+        
+11:50:40 AM: DEBUG [persona_dao.py:74] 
+            Id Persona: 3, Nombre: Carlos,
+            Apellido: Lara, Email: clara@mail.com
+        
+11:50:40 AM: DEBUG [persona_dao.py:74] 
+            Id Persona: 4, Nombre: Maria,
+            Apellido: Esparza, Email: mesparza@mail.com
+        
+11:50:40 AM: DEBUG [persona_dao.py:74] 
+            Id Persona: 5, Nombre: Rocio,
+            Apellido: Mijares, Email: rmijares@mail.com
+        
+11:50:40 AM: DEBUG [persona_dao.py:74] 
+            Id Persona: 6, Nombre: Alex,
+            Apellido: Rojas, Email: arojas@mail.com
+        
+12:46:06 PM: DEBUG [conexion.py:43] Conexión abierta exitosamente: user=postgres dbname=test_db host=127.0.0.1 hostaddr=127.0.0.1 sslcertmode=allow
+12:46:11 PM: WARNING [_acompat.py:170] couldn't stop thread 'pool-1-worker-0' within 5.0 seconds
+12:46:11 PM: WARNING [_acompat.py:172] hint: you can try to call 'close()' explicitly or to use the pool as context manager
+12:46:17 PM: WARNING [_acompat.py:170] couldn't stop thread 'pool-1-worker-1' within 5.0 seconds
+12:46:17 PM: WARNING [_acompat.py:172] hint: you can try to call 'close()' explicitly or to use the pool as context manager
+12:46:22 PM: WARNING [_acompat.py:170] couldn't stop thread 'pool-1-worker-2' within 5.0 seconds
+12:46:22 PM: WARNING [_acompat.py:172] hint: you can try to call 'close()' explicitly or to use the pool as context manager
+12:46:27 PM: WARNING [_acompat.py:170] couldn't stop thread 'pool-1-scheduler' within 5.0 seconds
+12:46:27 PM: WARNING [_acompat.py:172] hint: you can try to call 'close()' explicitly or to use the pool as context manager
+12:47:55 PM: WARNING [_acompat.py:170] couldn't stop thread 'pool-1-worker-0' within 5.0 seconds
+12:47:55 PM: WARNING [_acompat.py:172] hint: you can try to call 'close()' explicitly or to use the pool as context manager
+12:48:00 PM: WARNING [_acompat.py:170] couldn't stop thread 'pool-1-worker-1' within 5.0 seconds
+12:48:00 PM: WARNING [_acompat.py:172] hint: you can try to call 'close()' explicitly or to use the pool as context manager
+12:48:05 PM: WARNING [_acompat.py:170] couldn't stop thread 'pool-1-worker-2' within 5.0 seconds
+12:48:05 PM: WARNING [_acompat.py:172] hint: you can try to call 'close()' explicitly or to use the pool as context manager
+12:48:10 PM: WARNING [_acompat.py:170] couldn't stop thread 'pool-1-scheduler' within 5.0 seconds
+12:48:10 PM: WARNING [_acompat.py:172] hint: you can try to call 'close()' explicitly or to use the pool as context manager
+12:48:42 PM: DEBUG [conexion.py:43] Conexión abierta exitosamente: user=postgres dbname=test_db host=127.0.0.1 hostaddr=127.0.0.1 sslcertmode=allow
+12:48:47 PM: WARNING [_acompat.py:170] couldn't stop thread 'pool-1-worker-0' within 5.0 seconds
+12:48:47 PM: WARNING [_acompat.py:172] hint: you can try to call 'close()' explicitly or to use the pool as context manager
+12:48:52 PM: WARNING [_acompat.py:170] couldn't stop thread 'pool-1-worker-1' within 5.0 seconds
+12:48:52 PM: WARNING [_acompat.py:172] hint: you can try to call 'close()' explicitly or to use the pool as context manager
+12:48:57 PM: WARNING [_acompat.py:170] couldn't stop thread 'pool-1-worker-2' within 5.0 seconds
+12:48:57 PM: WARNING [_acompat.py:172] hint: you can try to call 'close()' explicitly or to use the pool as context manager
+12:49:02 PM: WARNING [_acompat.py:170] couldn't stop thread 'pool-1-scheduler' within 5.0 seconds
+12:49:02 PM: WARNING [_acompat.py:172] hint: you can try to call 'close()' explicitly or to use the pool as context manager
+12:50:29 PM: WARNING [pool.py:639] error connecting in 'pool-2': 'ellipsis' object has no attribute 'encode'
+12:50:29 PM: WARNING [pool.py:639] error connecting in 'pool-2': 'ellipsis' object has no attribute 'encode'
+12:50:29 PM: WARNING [pool.py:639] error connecting in 'pool-2': 'ellipsis' object has no attribute 'encode'
+12:50:29 PM: WARNING [pool.py:639] error connecting in 'pool-2': 'ellipsis' object has no attribute 'encode'
+12:50:30 PM: WARNING [pool.py:639] error connecting in 'pool-2': 'ellipsis' object has no attribute 'encode'
+12:50:30 PM: WARNING [pool.py:639] error connecting in 'pool-2': 'ellipsis' object has no attribute 'encode'
+12:50:30 PM: WARNING [pool.py:639] error connecting in 'pool-2': 'ellipsis' object has no attribute 'encode'
+12:50:30 PM: WARNING [pool.py:639] error connecting in 'pool-2': 'ellipsis' object has no attribute 'encode'
+12:50:32 PM: WARNING [pool.py:639] error connecting in 'pool-2': 'ellipsis' object has no attribute 'encode'
+12:50:32 PM: WARNING [pool.py:639] error connecting in 'pool-2': 'ellipsis' object has no attribute 'encode'
+12:50:32 PM: WARNING [pool.py:639] error connecting in 'pool-2': 'ellipsis' object has no attribute 'encode'
+12:50:32 PM: WARNING [pool.py:639] error connecting in 'pool-2': 'ellipsis' object has no attribute 'encode'
+12:50:36 PM: WARNING [pool.py:639] error connecting in 'pool-2': 'ellipsis' object has no attribute 'encode'
+12:50:36 PM: WARNING [pool.py:639] error connecting in 'pool-2': 'ellipsis' object has no attribute 'encode'
+12:50:37 PM: WARNING [pool.py:639] error connecting in 'pool-2': 'ellipsis' object has no attribute 'encode'
+12:50:37 PM: WARNING [pool.py:639] error connecting in 'pool-2': 'ellipsis' object has no attribute 'encode'
+12:50:44 PM: WARNING [pool.py:639] error connecting in 'pool-2': 'ellipsis' object has no attribute 'encode'
+12:50:44 PM: WARNING [pool.py:639] error connecting in 'pool-2': 'ellipsis' object has no attribute 'encode'
+12:50:45 PM: WARNING [pool.py:639] error connecting in 'pool-2': 'ellipsis' object has no attribute 'encode'
+12:50:46 PM: WARNING [pool.py:639] error connecting in 'pool-2': 'ellipsis' object has no attribute 'encode'
+12:50:58 PM: WARNING [pool.py:639] error connecting in 'pool-2': 'ellipsis' object has no attribute 'encode'
+12:50:58 PM: WARNING [pool.py:639] error connecting in 'pool-2': 'ellipsis' object has no attribute 'encode'
+12:50:58 PM: WARNING [pool.py:639] error connecting in 'pool-2': 'ellipsis' object has no attribute 'encode'
+12:50:58 PM: WARNING [pool.py:639] error connecting in 'pool-2': 'ellipsis' object has no attribute 'encode'
+12:50:59 PM: WARNING [pool.py:639] error connecting in 'pool-2': 'ellipsis' object has no attribute 'encode'
+12:50:59 PM: WARNING [pool.py:639] error connecting in 'pool-2': 'ellipsis' object has no attribute 'encode'
+12:50:59 PM: WARNING [pool.py:639] error connecting in 'pool-2': 'ellipsis' object has no attribute 'encode'
+12:50:59 PM: WARNING [pool.py:639] error connecting in 'pool-2': 'ellipsis' object has no attribute 'encode'
+12:51:01 PM: WARNING [pool.py:639] error connecting in 'pool-2': 'ellipsis' object has no attribute 'encode'
+12:51:01 PM: WARNING [pool.py:639] error connecting in 'pool-2': 'ellipsis' object has no attribute 'encode'
+12:51:01 PM: WARNING [pool.py:639] error connecting in 'pool-2': 'ellipsis' object has no attribute 'encode'
+12:51:01 PM: WARNING [pool.py:639] error connecting in 'pool-2': 'ellipsis' object has no attribute 'encode'
+12:51:08 PM: WARNING [pool.py:639] error connecting in 'pool-2': 'ellipsis' object has no attribute 'encode'
+12:51:08 PM: WARNING [pool.py:639] error connecting in 'pool-2': 'ellipsis' object has no attribute 'encode'
+12:51:08 PM: WARNING [pool.py:639] error connecting in 'pool-2': 'ellipsis' object has no attribute 'encode'
+12:51:08 PM: WARNING [pool.py:639] error connecting in 'pool-2': 'ellipsis' object has no attribute 'encode'
+12:51:09 PM: WARNING [pool.py:639] error connecting in 'pool-2': 'ellipsis' object has no attribute 'encode'
+12:51:09 PM: WARNING [pool.py:639] error connecting in 'pool-2': 'ellipsis' object has no attribute 'encode'
+12:51:09 PM: WARNING [pool.py:639] error connecting in 'pool-2': 'ellipsis' object has no attribute 'encode'
+12:51:09 PM: WARNING [pool.py:639] error connecting in 'pool-2': 'ellipsis' object has no attribute 'encode'
+12:51:10 PM: WARNING [pool.py:639] error connecting in 'pool-2': 'ellipsis' object has no attribute 'encode'
+12:51:11 PM: WARNING [pool.py:639] error connecting in 'pool-2': 'ellipsis' object has no attribute 'encode'
+12:51:11 PM: WARNING [pool.py:639] error connecting in 'pool-2': 'ellipsis' object has no attribute 'encode'
+12:51:11 PM: WARNING [pool.py:639] error connecting in 'pool-2': 'ellipsis' object has no attribute 'encode'
+12:51:14 PM: WARNING [pool.py:639] error connecting in 'pool-2': 'ellipsis' object has no attribute 'encode'
+12:51:15 PM: WARNING [pool.py:639] error connecting in 'pool-2': 'ellipsis' object has no attribute 'encode'
+12:51:15 PM: WARNING [pool.py:639] error connecting in 'pool-2': 'ellipsis' object has no attribute 'encode'
+12:51:15 PM: WARNING [pool.py:639] error connecting in 'pool-2': 'ellipsis' object has no attribute 'encode'
+12:51:22 PM: WARNING [pool.py:639] error connecting in 'pool-2': 'ellipsis' object has no attribute 'encode'
+12:51:22 PM: WARNING [pool.py:639] error connecting in 'pool-2': 'ellipsis' object has no attribute 'encode'
+12:51:24 PM: WARNING [pool.py:639] error connecting in 'pool-2': 'ellipsis' object has no attribute 'encode'
+12:51:24 PM: WARNING [pool.py:639] error connecting in 'pool-2': 'ellipsis' object has no attribute 'encode'
+12:51:37 PM: WARNING [pool.py:639] error connecting in 'pool-2': 'ellipsis' object has no attribute 'encode'
+12:51:43 PM: WARNING [_acompat.py:170] couldn't stop thread 'pool-1-worker-0' within 5.0 seconds
+12:51:43 PM: WARNING [_acompat.py:172] hint: you can try to call 'close()' explicitly or to use the pool as context manager
+12:51:48 PM: WARNING [_acompat.py:170] couldn't stop thread 'pool-1-worker-1' within 5.0 seconds
+12:51:48 PM: WARNING [_acompat.py:172] hint: you can try to call 'close()' explicitly or to use the pool as context manager
+12:51:53 PM: WARNING [_acompat.py:170] couldn't stop thread 'pool-1-worker-2' within 5.0 seconds
+12:51:53 PM: WARNING [_acompat.py:172] hint: you can try to call 'close()' explicitly or to use the pool as context manager
+12:51:58 PM: WARNING [_acompat.py:170] couldn't stop thread 'pool-1-scheduler' within 5.0 seconds
+12:51:58 PM: WARNING [_acompat.py:172] hint: you can try to call 'close()' explicitly or to use the pool as context manager
+12:54:46 PM: DEBUG [conexion.py:19] Conexión abierta exitosamente: user=postgres dbname=test_db host=127.0.0.1 hostaddr=127.0.0.1 sslcertmode=allow
+01:03:03 PM: DEBUG [conexion.py:19] Pool de conexiones verificado correctamente.
+01:03:03 PM: DEBUG [conexion.py:22] Conexión abierta exitosamente: user=postgres dbname=test_db host=127.0.0.1 hostaddr=127.0.0.1 sslcertmode=allow
+02:27:42 PM: DEBUG [conexion.py:19] Pool de conexiones verificado correctamente.
+02:27:42 PM: DEBUG [conexion.py:22] Conexión abierta exitosamente: user=postgres dbname=test_db host=127.0.0.1 hostaddr=127.0.0.1 sslcertmode=allow
+02:46:35 PM: DEBUG [conexion.py:19] Pool de conexiones verificado correctamente.
+02:46:35 PM: DEBUG [conexion.py:22] Conexión abierta exitosamente: user=postgres dbname=test_db host=127.0.0.1 hostaddr=127.0.0.1 sslcertmode=allow
+02:46:35 PM: DEBUG [conexion.py:24] Conexión abierta exitosamente: user=postgres dbname=test_db host=127.0.0.1 hostaddr=127.0.0.1 sslcertmode=allow
+02:46:35 PM: DEBUG [conexion.py:26] Conexión abierta exitosamente: user=postgres dbname=test_db host=127.0.0.1 hostaddr=127.0.0.1 sslcertmode=allow
+02:46:57 PM: DEBUG [conexion.py:19] Pool de conexiones verificado correctamente.
+02:46:57 PM: DEBUG [conexion.py:22] Conexión abierta exitosamente: user=postgres dbname=test_db host=127.0.0.1 hostaddr=127.0.0.1 sslcertmode=allow
+02:46:57 PM: DEBUG [conexion.py:24] Conexión abierta exitosamente: user=postgres dbname=test_db host=127.0.0.1 hostaddr=127.0.0.1 sslcertmode=allow
+02:46:57 PM: DEBUG [conexion.py:26] Conexión abierta exitosamente: user=postgres dbname=test_db host=127.0.0.1 hostaddr=127.0.0.1 sslcertmode=allow
+02:46:57 PM: DEBUG [conexion.py:28] Pool de conexiones cerrado correctamente.
+02:47:27 PM: DEBUG [conexion.py:19] Pool de conexiones verificado correctamente.
+02:47:28 PM: DEBUG [conexion.py:27] Pool de conexiones cerrado correctamente.
+02:47:37 PM: DEBUG [conexion.py:19] Pool de conexiones verificado correctamente.
+02:47:37 PM: DEBUG [conexion.py:27] Pool de conexiones cerrado correctamente.
+02:48:22 PM: DEBUG [conexion.py:19] Pool de conexiones verificado correctamente.
+02:48:22 PM: DEBUG [conexion.py:22] Conexión abierta exitosamente: user=postgres dbname=test_db host=127.0.0.1 hostaddr=127.0.0.1 sslcertmode=allow
+02:48:22 PM: DEBUG [conexion.py:24] Conexión abierta exitosamente: user=postgres dbname=test_db host=127.0.0.1 hostaddr=127.0.0.1 sslcertmode=allow
+02:48:22 PM: DEBUG [conexion.py:26] Conexión abierta exitosamente: user=postgres dbname=test_db host=127.0.0.1 hostaddr=127.0.0.1 sslcertmode=allow
+02:48:22 PM: DEBUG [conexion.py:28] Conexión abierta exitosamente: user=postgres dbname=test_db host=127.0.0.1 hostaddr=127.0.0.1 sslcertmode=allow
+02:48:22 PM: DEBUG [conexion.py:30] Conexión abierta exitosamente: user=postgres dbname=test_db host=127.0.0.1 hostaddr=127.0.0.1 sslcertmode=allow
+02:48:22 PM: DEBUG [conexion.py:32] Conexión abierta exitosamente: user=postgres dbname=test_db host=127.0.0.1 hostaddr=127.0.0.1 sslcertmode=allow
+02:48:22 PM: DEBUG [conexion.py:34] Pool de conexiones cerrado correctamente.
+02:49:51 PM: DEBUG [conexion.py:19] Pool de conexiones verificado correctamente.
+02:49:56 PM: WARNING [_acompat.py:170] couldn't stop thread 'pool-1-worker-0' within 5.0 seconds
+02:49:56 PM: WARNING [_acompat.py:172] hint: you can try to call 'close()' explicitly or to use the pool as context manager
+02:50:00 PM: DEBUG [conexion.py:19] Pool de conexiones verificado correctamente.
+02:50:05 PM: WARNING [_acompat.py:170] couldn't stop thread 'pool-1-worker-0' within 5.0 seconds
+02:50:05 PM: WARNING [_acompat.py:172] hint: you can try to call 'close()' explicitly or to use the pool as context manager
+02:50:10 PM: WARNING [_acompat.py:170] couldn't stop thread 'pool-1-worker-1' within 5.0 seconds
+02:50:10 PM: WARNING [_acompat.py:172] hint: you can try to call 'close()' explicitly or to use the pool as context manager
+02:50:15 PM: WARNING [_acompat.py:170] couldn't stop thread 'pool-1-worker-2' within 5.0 seconds
+02:50:15 PM: WARNING [_acompat.py:172] hint: you can try to call 'close()' explicitly or to use the pool as context manager
+02:50:20 PM: WARNING [_acompat.py:170] couldn't stop thread 'pool-1-scheduler' within 5.0 seconds
+02:50:20 PM: WARNING [_acompat.py:172] hint: you can try to call 'close()' explicitly or to use the pool as context manager
+02:51:05 PM: DEBUG [conexion.py:19] Pool de conexiones verificado correctamente.
+02:51:10 PM: WARNING [_acompat.py:170] couldn't stop thread 'pool-1-worker-0' within 5.0 seconds
+02:51:10 PM: WARNING [_acompat.py:172] hint: you can try to call 'close()' explicitly or to use the pool as context manager
+02:51:15 PM: DEBUG [conexion.py:19] Pool de conexiones verificado correctamente.
+02:51:34 PM: DEBUG [conexion.py:19] Pool de conexiones verificado correctamente.
+02:51:34 PM: DEBUG [conexion.py:23] Conexión #1: id=2066508835744, pid=user=postgres dbname=test_db host=127.0.0.1 hostaddr=127.0.0.1 sslcertmode=allow
+02:51:34 PM: DEBUG [conexion.py:23] Conexión #2: id=2066509535568, pid=user=postgres dbname=test_db host=127.0.0.1 hostaddr=127.0.0.1 sslcertmode=allow
+02:51:34 PM: DEBUG [conexion.py:23] Conexión #3: id=2066508835744, pid=user=postgres dbname=test_db host=127.0.0.1 hostaddr=127.0.0.1 sslcertmode=allow
+02:51:34 PM: DEBUG [conexion.py:26] Pool de conexiones cerrado correctamente.
+02:51:49 PM: DEBUG [conexion.py:19] Pool de conexiones verificado correctamente.
+02:51:49 PM: DEBUG [conexion.py:23] Conexión #1: id=2266424372128, pid=user=postgres dbname=test_db host=127.0.0.1 hostaddr=127.0.0.1 sslcertmode=allow
+02:51:49 PM: DEBUG [conexion.py:23] Conexión #2: id=2266425073232, pid=user=postgres dbname=test_db host=127.0.0.1 hostaddr=127.0.0.1 sslcertmode=allow
+02:51:49 PM: DEBUG [conexion.py:23] Conexión #3: id=2266424372128, pid=user=postgres dbname=test_db host=127.0.0.1 hostaddr=127.0.0.1 sslcertmode=allow
+02:51:49 PM: DEBUG [conexion.py:23] Conexión #4: id=2266425073232, pid=user=postgres dbname=test_db host=127.0.0.1 hostaddr=127.0.0.1 sslcertmode=allow
+02:51:49 PM: DEBUG [conexion.py:23] Conexión #5: id=2266424372128, pid=user=postgres dbname=test_db host=127.0.0.1 hostaddr=127.0.0.1 sslcertmode=allow
+02:51:49 PM: DEBUG [conexion.py:26] Pool de conexiones cerrado correctamente.
+02:51:57 PM: DEBUG [conexion.py:19] Pool de conexiones verificado correctamente.
+02:51:57 PM: DEBUG [conexion.py:23] Conexión #1: id=3056812125088, pid=user=postgres dbname=test_db host=127.0.0.1 hostaddr=127.0.0.1 sslcertmode=allow
+02:51:57 PM: DEBUG [conexion.py:23] Conexión #2: id=3056812125088, pid=user=postgres dbname=test_db host=127.0.0.1 hostaddr=127.0.0.1 sslcertmode=allow
+02:51:57 PM: DEBUG [conexion.py:23] Conexión #3: id=3056812125088, pid=user=postgres dbname=test_db host=127.0.0.1 hostaddr=127.0.0.1 sslcertmode=allow
+02:51:57 PM: DEBUG [conexion.py:23] Conexión #4: id=3056812125088, pid=user=postgres dbname=test_db host=127.0.0.1 hostaddr=127.0.0.1 sslcertmode=allow
+02:51:57 PM: DEBUG [conexion.py:23] Conexión #5: id=3056812125088, pid=user=postgres dbname=test_db host=127.0.0.1 hostaddr=127.0.0.1 sslcertmode=allow
+02:51:57 PM: DEBUG [conexion.py:23] Conexión #6: id=3056812125088, pid=user=postgres dbname=test_db host=127.0.0.1 hostaddr=127.0.0.1 sslcertmode=allow
+02:51:57 PM: DEBUG [conexion.py:23] Conexión #7: id=3056812125088, pid=user=postgres dbname=test_db host=127.0.0.1 hostaddr=127.0.0.1 sslcertmode=allow
+02:51:57 PM: DEBUG [conexion.py:23] Conexión #8: id=3056812125088, pid=user=postgres dbname=test_db host=127.0.0.1 hostaddr=127.0.0.1 sslcertmode=allow
+02:51:57 PM: DEBUG [conexion.py:23] Conexión #9: id=3056812125088, pid=user=postgres dbname=test_db host=127.0.0.1 hostaddr=127.0.0.1 sslcertmode=allow
+02:51:57 PM: DEBUG [conexion.py:23] Conexión #10: id=3056812125088, pid=user=postgres dbname=test_db host=127.0.0.1 hostaddr=127.0.0.1 sslcertmode=allow
+02:51:57 PM: DEBUG [conexion.py:26] Pool de conexiones cerrado correctamente.
+02:52:07 PM: DEBUG [conexion.py:19] Pool de conexiones verificado correctamente.
+02:52:07 PM: DEBUG [conexion.py:23] Conexión #1: id=2825377375168, pid=user=postgres dbname=test_db host=127.0.0.1 hostaddr=127.0.0.1 sslcertmode=allow
+02:52:07 PM: DEBUG [conexion.py:23] Conexión #2: id=2825378078928, pid=user=postgres dbname=test_db host=127.0.0.1 hostaddr=127.0.0.1 sslcertmode=allow
+02:52:07 PM: DEBUG [conexion.py:23] Conexión #3: id=2825377375168, pid=user=postgres dbname=test_db host=127.0.0.1 hostaddr=127.0.0.1 sslcertmode=allow
+02:52:07 PM: DEBUG [conexion.py:23] Conexión #4: id=2825378078928, pid=user=postgres dbname=test_db host=127.0.0.1 hostaddr=127.0.0.1 sslcertmode=allow
+02:52:07 PM: DEBUG [conexion.py:23] Conexión #5: id=2825377375168, pid=user=postgres dbname=test_db host=127.0.0.1 hostaddr=127.0.0.1 sslcertmode=allow
+02:52:07 PM: DEBUG [conexion.py:23] Conexión #6: id=2825378078928, pid=user=postgres dbname=test_db host=127.0.0.1 hostaddr=127.0.0.1 sslcertmode=allow
+02:52:07 PM: DEBUG [conexion.py:23] Conexión #7: id=2825377375168, pid=user=postgres dbname=test_db host=127.0.0.1 hostaddr=127.0.0.1 sslcertmode=allow
+02:52:07 PM: DEBUG [conexion.py:23] Conexión #8: id=2825378078928, pid=user=postgres dbname=test_db host=127.0.0.1 hostaddr=127.0.0.1 sslcertmode=allow
+02:52:07 PM: DEBUG [conexion.py:23] Conexión #9: id=2825377375168, pid=user=postgres dbname=test_db host=127.0.0.1 hostaddr=127.0.0.1 sslcertmode=allow
+02:52:07 PM: DEBUG [conexion.py:23] Conexión #10: id=2825378078928, pid=user=postgres dbname=test_db host=127.0.0.1 hostaddr=127.0.0.1 sslcertmode=allow
+02:52:07 PM: DEBUG [conexion.py:23] Conexión #11: id=2825377375168, pid=user=postgres dbname=test_db host=127.0.0.1 hostaddr=127.0.0.1 sslcertmode=allow
+02:52:07 PM: DEBUG [conexion.py:23] Conexión #12: id=2825378078928, pid=user=postgres dbname=test_db host=127.0.0.1 hostaddr=127.0.0.1 sslcertmode=allow
+02:52:07 PM: DEBUG [conexion.py:23] Conexión #13: id=2825377375168, pid=user=postgres dbname=test_db host=127.0.0.1 hostaddr=127.0.0.1 sslcertmode=allow
+02:52:07 PM: DEBUG [conexion.py:23] Conexión #14: id=2825378078928, pid=user=postgres dbname=test_db host=127.0.0.1 hostaddr=127.0.0.1 sslcertmode=allow
+02:52:07 PM: DEBUG [conexion.py:23] Conexión #15: id=2825377375168, pid=user=postgres dbname=test_db host=127.0.0.1 hostaddr=127.0.0.1 sslcertmode=allow
+02:52:07 PM: DEBUG [conexion.py:23] Conexión #16: id=2825378078928, pid=user=postgres dbname=test_db host=127.0.0.1 hostaddr=127.0.0.1 sslcertmode=allow
+02:52:07 PM: DEBUG [conexion.py:23] Conexión #17: id=2825377375168, pid=user=postgres dbname=test_db host=127.0.0.1 hostaddr=127.0.0.1 sslcertmode=allow
+02:52:07 PM: DEBUG [conexion.py:23] Conexión #18: id=2825378078928, pid=user=postgres dbname=test_db host=127.0.0.1 hostaddr=127.0.0.1 sslcertmode=allow
+02:52:07 PM: DEBUG [conexion.py:23] Conexión #19: id=2825377375168, pid=user=postgres dbname=test_db host=127.0.0.1 hostaddr=127.0.0.1 sslcertmode=allow
+02:52:07 PM: DEBUG [conexion.py:23] Conexión #20: id=2825378078928, pid=user=postgres dbname=test_db host=127.0.0.1 hostaddr=127.0.0.1 sslcertmode=allow
+02:52:07 PM: DEBUG [conexion.py:23] Conexión #21: id=2825377375168, pid=user=postgres dbname=test_db host=127.0.0.1 hostaddr=127.0.0.1 sslcertmode=allow
+02:52:07 PM: DEBUG [conexion.py:23] Conexión #22: id=2825378078928, pid=user=postgres dbname=test_db host=127.0.0.1 hostaddr=127.0.0.1 sslcertmode=allow
+02:52:07 PM: DEBUG [conexion.py:23] Conexión #23: id=2825377375168, pid=user=postgres dbname=test_db host=127.0.0.1 hostaddr=127.0.0.1 sslcertmode=allow
+02:52:07 PM: DEBUG [conexion.py:23] Conexión #24: id=2825378078928, pid=user=postgres dbname=test_db host=127.0.0.1 hostaddr=127.0.0.1 sslcertmode=allow
+02:52:07 PM: DEBUG [conexion.py:23] Conexión #25: id=2825377375168, pid=user=postgres dbname=test_db host=127.0.0.1 hostaddr=127.0.0.1 sslcertmode=allow
+02:52:07 PM: DEBUG [conexion.py:23] Conexión #26: id=2825378078928, pid=user=postgres dbname=test_db host=127.0.0.1 hostaddr=127.0.0.1 sslcertmode=allow
+02:52:07 PM: DEBUG [conexion.py:23] Conexión #27: id=2825377375168, pid=user=postgres dbname=test_db host=127.0.0.1 hostaddr=127.0.0.1 sslcertmode=allow
+02:52:07 PM: DEBUG [conexion.py:23] Conexión #28: id=2825378078928, pid=user=postgres dbname=test_db host=127.0.0.1 hostaddr=127.0.0.1 sslcertmode=allow
+02:52:07 PM: DEBUG [conexion.py:23] Conexión #29: id=2825377375168, pid=user=postgres dbname=test_db host=127.0.0.1 hostaddr=127.0.0.1 sslcertmode=allow
+02:52:07 PM: DEBUG [conexion.py:23] Conexión #30: id=2825378078928, pid=user=postgres dbname=test_db host=127.0.0.1 hostaddr=127.0.0.1 sslcertmode=allow
+02:52:07 PM: DEBUG [conexion.py:23] Conexión #31: id=2825377375168, pid=user=postgres dbname=test_db host=127.0.0.1 hostaddr=127.0.0.1 sslcertmode=allow
+02:52:07 PM: DEBUG [conexion.py:23] Conexión #32: id=2825378078928, pid=user=postgres dbname=test_db host=127.0.0.1 hostaddr=127.0.0.1 sslcertmode=allow
+02:52:07 PM: DEBUG [conexion.py:23] Conexión #33: id=2825377375168, pid=user=postgres dbname=test_db host=127.0.0.1 hostaddr=127.0.0.1 sslcertmode=allow
+02:52:07 PM: DEBUG [conexion.py:23] Conexión #34: id=2825378078928, pid=user=postgres dbname=test_db host=127.0.0.1 hostaddr=127.0.0.1 sslcertmode=allow
+02:52:07 PM: DEBUG [conexion.py:23] Conexión #35: id=2825377375168, pid=user=postgres dbname=test_db host=127.0.0.1 hostaddr=127.0.0.1 sslcertmode=allow
+02:52:07 PM: DEBUG [conexion.py:23] Conexión #36: id=2825378078928, pid=user=postgres dbname=test_db host=127.0.0.1 hostaddr=127.0.0.1 sslcertmode=allow
+02:52:07 PM: DEBUG [conexion.py:23] Conexión #37: id=2825377375168, pid=user=postgres dbname=test_db host=127.0.0.1 hostaddr=127.0.0.1 sslcertmode=allow
+02:52:07 PM: DEBUG [conexion.py:23] Conexión #38: id=2825378078928, pid=user=postgres dbname=test_db host=127.0.0.1 hostaddr=127.0.0.1 sslcertmode=allow
+02:52:07 PM: DEBUG [conexion.py:23] Conexión #39: id=2825377375168, pid=user=postgres dbname=test_db host=127.0.0.1 hostaddr=127.0.0.1 sslcertmode=allow
+02:52:07 PM: DEBUG [conexion.py:23] Conexión #40: id=2825378078928, pid=user=postgres dbname=test_db host=127.0.0.1 hostaddr=127.0.0.1 sslcertmode=allow
+02:52:07 PM: DEBUG [conexion.py:23] Conexión #41: id=2825377375168, pid=user=postgres dbname=test_db host=127.0.0.1 hostaddr=127.0.0.1 sslcertmode=allow
+02:52:07 PM: DEBUG [conexion.py:23] Conexión #42: id=2825378078928, pid=user=postgres dbname=test_db host=127.0.0.1 hostaddr=127.0.0.1 sslcertmode=allow
+02:52:07 PM: DEBUG [conexion.py:23] Conexión #43: id=2825377375168, pid=user=postgres dbname=test_db host=127.0.0.1 hostaddr=127.0.0.1 sslcertmode=allow
+02:52:07 PM: DEBUG [conexion.py:23] Conexión #44: id=2825378078928, pid=user=postgres dbname=test_db host=127.0.0.1 hostaddr=127.0.0.1 sslcertmode=allow
+02:52:07 PM: DEBUG [conexion.py:23] Conexión #45: id=2825377375168, pid=user=postgres dbname=test_db host=127.0.0.1 hostaddr=127.0.0.1 sslcertmode=allow
+02:52:07 PM: DEBUG [conexion.py:23] Conexión #46: id=2825378078928, pid=user=postgres dbname=test_db host=127.0.0.1 hostaddr=127.0.0.1 sslcertmode=allow
+02:52:07 PM: DEBUG [conexion.py:23] Conexión #47: id=2825377375168, pid=user=postgres dbname=test_db host=127.0.0.1 hostaddr=127.0.0.1 sslcertmode=allow
+02:52:07 PM: DEBUG [conexion.py:23] Conexión #48: id=2825378078928, pid=user=postgres dbname=test_db host=127.0.0.1 hostaddr=127.0.0.1 sslcertmode=allow
+02:52:07 PM: DEBUG [conexion.py:23] Conexión #49: id=2825377375168, pid=user=postgres dbname=test_db host=127.0.0.1 hostaddr=127.0.0.1 sslcertmode=allow
+02:52:07 PM: DEBUG [conexion.py:23] Conexión #50: id=2825378078928, pid=user=postgres dbname=test_db host=127.0.0.1 hostaddr=127.0.0.1 sslcertmode=allow
+02:52:07 PM: DEBUG [conexion.py:23] Conexión #51: id=2825377375168, pid=user=postgres dbname=test_db host=127.0.0.1 hostaddr=127.0.0.1 sslcertmode=allow
+02:52:07 PM: DEBUG [conexion.py:23] Conexión #52: id=2825378078928, pid=user=postgres dbname=test_db host=127.0.0.1 hostaddr=127.0.0.1 sslcertmode=allow
+02:52:07 PM: DEBUG [conexion.py:23] Conexión #53: id=2825377375168, pid=user=postgres dbname=test_db host=127.0.0.1 hostaddr=127.0.0.1 sslcertmode=allow
+02:52:07 PM: DEBUG [conexion.py:23] Conexión #54: id=2825378078928, pid=user=postgres dbname=test_db host=127.0.0.1 hostaddr=127.0.0.1 sslcertmode=allow
+02:52:07 PM: DEBUG [conexion.py:23] Conexión #55: id=2825377375168, pid=user=postgres dbname=test_db host=127.0.0.1 hostaddr=127.0.0.1 sslcertmode=allow
+02:52:07 PM: DEBUG [conexion.py:23] Conexión #56: id=2825378078928, pid=user=postgres dbname=test_db host=127.0.0.1 hostaddr=127.0.0.1 sslcertmode=allow
+02:52:07 PM: DEBUG [conexion.py:23] Conexión #57: id=2825377375168, pid=user=postgres dbname=test_db host=127.0.0.1 hostaddr=127.0.0.1 sslcertmode=allow
+02:52:07 PM: DEBUG [conexion.py:23] Conexión #58: id=2825378078928, pid=user=postgres dbname=test_db host=127.0.0.1 hostaddr=127.0.0.1 sslcertmode=allow
+02:52:07 PM: DEBUG [conexion.py:23] Conexión #59: id=2825377375168, pid=user=postgres dbname=test_db host=127.0.0.1 hostaddr=127.0.0.1 sslcertmode=allow
+02:52:07 PM: DEBUG [conexion.py:23] Conexión #60: id=2825378078928, pid=user=postgres dbname=test_db host=127.0.0.1 hostaddr=127.0.0.1 sslcertmode=allow
+02:52:07 PM: DEBUG [conexion.py:23] Conexión #61: id=2825377375168, pid=user=postgres dbname=test_db host=127.0.0.1 hostaddr=127.0.0.1 sslcertmode=allow
+02:52:07 PM: DEBUG [conexion.py:23] Conexión #62: id=2825378078928, pid=user=postgres dbname=test_db host=127.0.0.1 hostaddr=127.0.0.1 sslcertmode=allow
+02:52:07 PM: DEBUG [conexion.py:23] Conexión #63: id=2825377375168, pid=user=postgres dbname=test_db host=127.0.0.1 hostaddr=127.0.0.1 sslcertmode=allow
+02:52:07 PM: DEBUG [conexion.py:23] Conexión #64: id=2825378078928, pid=user=postgres dbname=test_db host=127.0.0.1 hostaddr=127.0.0.1 sslcertmode=allow
+02:52:07 PM: DEBUG [conexion.py:23] Conexión #65: id=2825377375168, pid=user=postgres dbname=test_db host=127.0.0.1 hostaddr=127.0.0.1 sslcertmode=allow
+02:52:07 PM: DEBUG [conexion.py:23] Conexión #66: id=2825378078928, pid=user=postgres dbname=test_db host=127.0.0.1 hostaddr=127.0.0.1 sslcertmode=allow
+02:52:07 PM: DEBUG [conexion.py:23] Conexión #67: id=2825377375168, pid=user=postgres dbname=test_db host=127.0.0.1 hostaddr=127.0.0.1 sslcertmode=allow
+02:52:07 PM: DEBUG [conexion.py:23] Conexión #68: id=2825378078928, pid=user=postgres dbname=test_db host=127.0.0.1 hostaddr=127.0.0.1 sslcertmode=allow
+02:52:07 PM: DEBUG [conexion.py:23] Conexión #69: id=2825377375168, pid=user=postgres dbname=test_db host=127.0.0.1 hostaddr=127.0.0.1 sslcertmode=allow
+02:52:07 PM: DEBUG [conexion.py:23] Conexión #70: id=2825378078928, pid=user=postgres dbname=test_db host=127.0.0.1 hostaddr=127.0.0.1 sslcertmode=allow
+02:52:07 PM: DEBUG [conexion.py:23] Conexión #71: id=2825377375168, pid=user=postgres dbname=test_db host=127.0.0.1 hostaddr=127.0.0.1 sslcertmode=allow
+02:52:07 PM: DEBUG [conexion.py:23] Conexión #72: id=2825378078928, pid=user=postgres dbname=test_db host=127.0.0.1 hostaddr=127.0.0.1 sslcertmode=allow
+02:52:07 PM: DEBUG [conexion.py:23] Conexión #73: id=2825377375168, pid=user=postgres dbname=test_db host=127.0.0.1 hostaddr=127.0.0.1 sslcertmode=allow
+02:52:07 PM: DEBUG [conexion.py:23] Conexión #74: id=2825378078928, pid=user=postgres dbname=test_db host=127.0.0.1 hostaddr=127.0.0.1 sslcertmode=allow
+02:52:07 PM: DEBUG [conexion.py:23] Conexión #75: id=2825377375168, pid=user=postgres dbname=test_db host=127.0.0.1 hostaddr=127.0.0.1 sslcertmode=allow
+02:52:07 PM: DEBUG [conexion.py:23] Conexión #76: id=2825378078928, pid=user=postgres dbname=test_db host=127.0.0.1 hostaddr=127.0.0.1 sslcertmode=allow
+02:52:07 PM: DEBUG [conexion.py:23] Conexión #77: id=2825377375168, pid=user=postgres dbname=test_db host=127.0.0.1 hostaddr=127.0.0.1 sslcertmode=allow
+02:52:07 PM: DEBUG [conexion.py:23] Conexión #78: id=2825378078928, pid=user=postgres dbname=test_db host=127.0.0.1 hostaddr=127.0.0.1 sslcertmode=allow
+02:52:07 PM: DEBUG [conexion.py:23] Conexión #79: id=2825377375168, pid=user=postgres dbname=test_db host=127.0.0.1 hostaddr=127.0.0.1 sslcertmode=allow
+02:52:07 PM: DEBUG [conexion.py:23] Conexión #80: id=2825378078928, pid=user=postgres dbname=test_db host=127.0.0.1 hostaddr=127.0.0.1 sslcertmode=allow
+02:52:07 PM: DEBUG [conexion.py:23] Conexión #81: id=2825377375168, pid=user=postgres dbname=test_db host=127.0.0.1 hostaddr=127.0.0.1 sslcertmode=allow
+02:52:07 PM: DEBUG [conexion.py:23] Conexión #82: id=2825378078928, pid=user=postgres dbname=test_db host=127.0.0.1 hostaddr=127.0.0.1 sslcertmode=allow
+02:52:07 PM: DEBUG [conexion.py:23] Conexión #83: id=2825377375168, pid=user=postgres dbname=test_db host=127.0.0.1 hostaddr=127.0.0.1 sslcertmode=allow
+02:52:07 PM: DEBUG [conexion.py:23] Conexión #84: id=2825378078928, pid=user=postgres dbname=test_db host=127.0.0.1 hostaddr=127.0.0.1 sslcertmode=allow
+02:52:07 PM: DEBUG [conexion.py:23] Conexión #85: id=2825377375168, pid=user=postgres dbname=test_db host=127.0.0.1 hostaddr=127.0.0.1 sslcertmode=allow
+02:52:07 PM: DEBUG [conexion.py:23] Conexión #86: id=2825378078928, pid=user=postgres dbname=test_db host=127.0.0.1 hostaddr=127.0.0.1 sslcertmode=allow
+02:52:07 PM: DEBUG [conexion.py:23] Conexión #87: id=2825377375168, pid=user=postgres dbname=test_db host=127.0.0.1 hostaddr=127.0.0.1 sslcertmode=allow
+02:52:07 PM: DEBUG [conexion.py:23] Conexión #88: id=2825378078928, pid=user=postgres dbname=test_db host=127.0.0.1 hostaddr=127.0.0.1 sslcertmode=allow
+02:52:07 PM: DEBUG [conexion.py:23] Conexión #89: id=2825377375168, pid=user=postgres dbname=test_db host=127.0.0.1 hostaddr=127.0.0.1 sslcertmode=allow
+02:52:07 PM: DEBUG [conexion.py:23] Conexión #90: id=2825378078928, pid=user=postgres dbname=test_db host=127.0.0.1 hostaddr=127.0.0.1 sslcertmode=allow
+02:52:07 PM: DEBUG [conexion.py:23] Conexión #91: id=2825377375168, pid=user=postgres dbname=test_db host=127.0.0.1 hostaddr=127.0.0.1 sslcertmode=allow
+02:52:07 PM: DEBUG [conexion.py:23] Conexión #92: id=2825378078928, pid=user=postgres dbname=test_db host=127.0.0.1 hostaddr=127.0.0.1 sslcertmode=allow
+02:52:07 PM: DEBUG [conexion.py:23] Conexión #93: id=2825377375168, pid=user=postgres dbname=test_db host=127.0.0.1 hostaddr=127.0.0.1 sslcertmode=allow
+02:52:07 PM: DEBUG [conexion.py:23] Conexión #94: id=2825378078928, pid=user=postgres dbname=test_db host=127.0.0.1 hostaddr=127.0.0.1 sslcertmode=allow
+02:52:07 PM: DEBUG [conexion.py:23] Conexión #95: id=2825377375168, pid=user=postgres dbname=test_db host=127.0.0.1 hostaddr=127.0.0.1 sslcertmode=allow
+02:52:07 PM: DEBUG [conexion.py:23] Conexión #96: id=2825378078928, pid=user=postgres dbname=test_db host=127.0.0.1 hostaddr=127.0.0.1 sslcertmode=allow
+02:52:07 PM: DEBUG [conexion.py:23] Conexión #97: id=2825377375168, pid=user=postgres dbname=test_db host=127.0.0.1 hostaddr=127.0.0.1 sslcertmode=allow
+02:52:07 PM: DEBUG [conexion.py:23] Conexión #98: id=2825378078928, pid=user=postgres dbname=test_db host=127.0.0.1 hostaddr=127.0.0.1 sslcertmode=allow
+02:52:07 PM: DEBUG [conexion.py:23] Conexión #99: id=2825377375168, pid=user=postgres dbname=test_db host=127.0.0.1 hostaddr=127.0.0.1 sslcertmode=allow
+02:52:07 PM: DEBUG [conexion.py:23] Conexión #100: id=2825378078928, pid=user=postgres dbname=test_db host=127.0.0.1 hostaddr=127.0.0.1 sslcertmode=allow
+02:52:07 PM: DEBUG [conexion.py:26] Pool de conexiones cerrado correctamente.
+02:52:24 PM: DEBUG [conexion.py:19] Pool de conexiones verificado correctamente.
+02:52:24 PM: DEBUG [conexion.py:23] Conexión #1: id=2025481528256, pid=user=postgres dbname=test_db host=127.0.0.1 hostaddr=127.0.0.1 sslcertmode=allow
+02:52:24 PM: DEBUG [conexion.py:23] Conexión #2: id=2025482230096, pid=user=postgres dbname=test_db host=127.0.0.1 hostaddr=127.0.0.1 sslcertmode=allow
+02:52:24 PM: DEBUG [conexion.py:23] Conexión #3: id=2025481528256, pid=user=postgres dbname=test_db host=127.0.0.1 hostaddr=127.0.0.1 sslcertmode=allow
+02:52:24 PM: DEBUG [conexion.py:23] Conexión #4: id=2025482230096, pid=user=postgres dbname=test_db host=127.0.0.1 hostaddr=127.0.0.1 sslcertmode=allow
+02:52:24 PM: DEBUG [conexion.py:23] Conexión #5: id=2025481528256, pid=user=postgres dbname=test_db host=127.0.0.1 hostaddr=127.0.0.1 sslcertmode=allow
+02:52:24 PM: DEBUG [conexion.py:26] Pool de conexiones cerrado correctamente.
+02:55:06 PM: DEBUG [conexion.py:20] Pool de conexiones verificado correctamente.
+02:55:06 PM: DEBUG [conexion.py:27] Conexión #1 obtenida: id=2610970518800
+02:55:06 PM: DEBUG [conexion.py:27] Conexión #2 obtenida: id=2610988048592
+02:55:06 PM: DEBUG [conexion.py:27] Conexión #3 obtenida: id=2610988048912
+02:55:06 PM: DEBUG [conexion.py:27] Conexión #4 obtenida: id=2610988012672
+02:55:06 PM: DEBUG [conexion.py:27] Conexión #5 obtenida: id=2610988012976
+02:55:06 PM: DEBUG [conexion.py:27] Conexión #6 obtenida: id=2610987929904
+02:55:06 PM: DEBUG [conexion.py:27] Conexión #7 obtenida: id=2610970533120
+02:55:06 PM: DEBUG [conexion.py:27] Conexión #8 obtenida: id=2610970533664
+02:55:06 PM: DEBUG [conexion.py:27] Conexión #9 obtenida: id=2610970775120
+02:55:06 PM: DEBUG [conexion.py:27] Conexión #10 obtenida: id=2610970774864
+02:55:30 PM: DEBUG [conexion.py:20] Pool de conexiones verificado correctamente.
+02:55:30 PM: DEBUG [conexion.py:27] Conexión #1 obtenida: id=3032167114000
+02:55:30 PM: DEBUG [conexion.py:27] Conexión #2 obtenida: id=3032167866576
+02:55:30 PM: DEBUG [conexion.py:27] Conexión #3 obtenida: id=3032167866896
+02:55:30 PM: DEBUG [conexion.py:27] Conexión #4 obtenida: id=3032167830656
+02:55:30 PM: DEBUG [conexion.py:27] Conexión #5 obtenida: id=3032167830960
+02:55:30 PM: DEBUG [conexion.py:27] Conexión #6 obtenida: id=3032167747888
+02:55:30 PM: DEBUG [conexion.py:27] Conexión #7 obtenida: id=3032167128320
+02:55:30 PM: DEBUG [conexion.py:27] Conexión #8 obtenida: id=3032167128864
+02:55:30 PM: DEBUG [conexion.py:27] Conexión #9 obtenida: id=3032167370320
+02:55:30 PM: DEBUG [conexion.py:27] Conexión #10 obtenida: id=3032167370064
+02:57:14 PM: DEBUG [conexion.py:20] Pool de conexiones verificado correctamente.
+02:57:14 PM: DEBUG [conexion.py:27] Conexión #1 obtenida: id=2081370498320
+02:57:14 PM: DEBUG [conexion.py:27] Conexión #2 obtenida: id=2081371251856
+02:57:14 PM: DEBUG [conexion.py:27] Conexión #3 obtenida: id=2081371250256
+02:57:14 PM: DEBUG [conexion.py:27] Conexión #4 obtenida: id=2081371216192
+02:57:14 PM: DEBUG [conexion.py:27] Conexión #5 obtenida: id=2081371217104
+02:57:19 PM: DEBUG [conexion.py:36] Pool de conexiones cerrado correctamente.
+02:57:38 PM: DEBUG [conexion.py:20] Pool de conexiones verificado correctamente.
+02:57:38 PM: DEBUG [conexion.py:27] Conexión #1 obtenida: id=2366821393680
+02:57:38 PM: DEBUG [conexion.py:27] Conexión #2 obtenida: id=2366822145616
+02:57:38 PM: DEBUG [conexion.py:27] Conexión #3 obtenida: id=2366822147216
+02:57:38 PM: DEBUG [conexion.py:27] Conexión #4 obtenida: id=2366822111552
+02:57:38 PM: DEBUG [conexion.py:27] Conexión #5 obtenida: id=2366822112464
+02:57:38 PM: DEBUG [conexion.py:36] Pool de conexiones cerrado correctamente.
+02:57:45 PM: DEBUG [conexion.py:20] Pool de conexiones verificado correctamente.
+02:57:46 PM: DEBUG [conexion.py:27] Conexión #1 obtenida: id=2808677819664
+02:57:46 PM: DEBUG [conexion.py:27] Conexión #2 obtenida: id=2808678572240
+02:57:46 PM: DEBUG [conexion.py:27] Conexión #3 obtenida: id=2808678573200
+02:57:46 PM: DEBUG [conexion.py:27] Conexión #4 obtenida: id=2808678537536
+02:57:46 PM: DEBUG [conexion.py:27] Conexión #5 obtenida: id=2808678538448
+02:57:51 PM: DEBUG [conexion.py:36] Pool de conexiones cerrado correctamente.
+03:01:14 PM: DEBUG [conexion.py:20] Pool de conexiones verificado correctamente.
+03:01:14 PM: DEBUG [conexion.py:35] Conexión #1 abierta y cerrada: id=3013237695760
+03:01:14 PM: DEBUG [conexion.py:35] Conexión #2 abierta y cerrada: id=3013255307472
+03:01:14 PM: DEBUG [conexion.py:35] Conexión #3 abierta y cerrada: id=3013255308432
+03:01:14 PM: DEBUG [conexion.py:35] Conexión #4 abierta y cerrada: id=3013255240304
+03:01:14 PM: DEBUG [conexion.py:35] Conexión #5 abierta y cerrada: id=3013255241216
+03:01:24 PM: WARNING [_acompat.py:170] couldn't stop thread 'pool-1-worker-0' within 5.0 seconds
+03:01:24 PM: WARNING [_acompat.py:172] hint: you can try to call 'close()' explicitly or to use the pool as context manager
+03:01:29 PM: WARNING [_acompat.py:170] couldn't stop thread 'pool-1-worker-1' within 5.0 seconds
+03:01:29 PM: WARNING [_acompat.py:172] hint: you can try to call 'close()' explicitly or to use the pool as context manager
+03:01:34 PM: WARNING [_acompat.py:170] couldn't stop thread 'pool-1-worker-2' within 5.0 seconds
+03:01:34 PM: WARNING [_acompat.py:172] hint: you can try to call 'close()' explicitly or to use the pool as context manager
+03:01:39 PM: WARNING [_acompat.py:170] couldn't stop thread 'pool-1-scheduler' within 5.0 seconds
+03:01:39 PM: WARNING [_acompat.py:172] hint: you can try to call 'close()' explicitly or to use the pool as context manager
+03:01:51 PM: DEBUG [conexion.py:20] Pool de conexiones verificado correctamente.
+03:01:51 PM: DEBUG [conexion.py:39] Conexión #1 abierta y cerrada: id=2571253606992
+03:01:51 PM: DEBUG [conexion.py:39] Conexión #2 abierta y cerrada: id=2571254309072
+03:01:51 PM: DEBUG [conexion.py:39] Conexión #3 abierta y cerrada: id=2571254310032
+03:01:51 PM: DEBUG [conexion.py:39] Conexión #4 abierta y cerrada: id=2571254356288
+03:01:51 PM: DEBUG [conexion.py:39] Conexión #5 abierta y cerrada: id=2571254357200
+03:02:01 PM: WARNING [_acompat.py:170] couldn't stop thread 'pool-1-worker-0' within 5.0 seconds
+03:02:01 PM: WARNING [_acompat.py:172] hint: you can try to call 'close()' explicitly or to use the pool as context manager
+03:02:06 PM: WARNING [_acompat.py:170] couldn't stop thread 'pool-1-worker-1' within 5.0 seconds
+03:02:06 PM: WARNING [_acompat.py:172] hint: you can try to call 'close()' explicitly or to use the pool as context manager
+03:02:11 PM: WARNING [_acompat.py:170] couldn't stop thread 'pool-1-worker-2' within 5.0 seconds
+03:02:11 PM: WARNING [_acompat.py:172] hint: you can try to call 'close()' explicitly or to use the pool as context manager
+03:02:16 PM: WARNING [_acompat.py:170] couldn't stop thread 'pool-1-scheduler' within 5.0 seconds
+03:02:16 PM: WARNING [_acompat.py:172] hint: you can try to call 'close()' explicitly or to use the pool as context manager
+03:05:19 PM: DEBUG [conexion.py:20] Pool de conexiones verificado correctamente.
+03:05:19 PM: DEBUG [conexion.py:39] Conexión #1 abierta y cerrada: id=2439528737696
+03:05:19 PM: DEBUG [conexion.py:39] Conexión #2 abierta y cerrada: id=2439528737696
+03:05:19 PM: DEBUG [conexion.py:39] Conexión #3 abierta y cerrada: id=2439528737696
+03:05:19 PM: DEBUG [conexion.py:39] Conexión #4 abierta y cerrada: id=2439528737696
+03:05:19 PM: DEBUG [conexion.py:39] Conexión #5 abierta y cerrada: id=2439528737696
+03:05:19 PM: DEBUG [conexion.py:39] Conexión #6 abierta y cerrada: id=2439528737696
+03:05:19 PM: DEBUG [conexion.py:39] Conexión #7 abierta y cerrada: id=2439528737696
+03:05:19 PM: DEBUG [conexion.py:39] Conexión #8 abierta y cerrada: id=2439528737696
+03:05:19 PM: DEBUG [conexion.py:39] Conexión #9 abierta y cerrada: id=2439528737696
+03:05:19 PM: DEBUG [conexion.py:39] Conexión #10 abierta y cerrada: id=2439528737696
+03:05:19 PM: DEBUG [conexion.py:42] Pool de conexiones cerrado correctamente.
+03:15:28 PM: DEBUG [conexion.py:20] Pool de conexiones verificado correctamente.
+03:15:28 PM: DEBUG [conexion.py:40] Conexión #1 abierta y cerrada: id=1404331256736
+03:15:28 PM: DEBUG [conexion.py:40] Conexión #2 abierta y cerrada: id=1404331958160
+03:15:28 PM: DEBUG [conexion.py:40] Conexión #3 abierta y cerrada: id=1404331256736
+03:15:28 PM: DEBUG [conexion.py:40] Conexión #4 abierta y cerrada: id=1404331958160
+03:15:28 PM: DEBUG [conexion.py:40] Conexión #5 abierta y cerrada: id=1404331256736
+03:15:28 PM: DEBUG [conexion.py:40] Conexión #6 abierta y cerrada: id=1404331958160
+03:15:28 PM: DEBUG [conexion.py:40] Conexión #7 abierta y cerrada: id=1404331256736
+03:15:28 PM: DEBUG [conexion.py:40] Conexión #8 abierta y cerrada: id=1404331958160
+03:15:28 PM: DEBUG [conexion.py:40] Conexión #9 abierta y cerrada: id=1404331256736
+03:15:28 PM: DEBUG [conexion.py:40] Conexión #10 abierta y cerrada: id=1404331958160
+03:15:28 PM: DEBUG [conexion.py:43] Pool de conexiones cerrado correctamente.
+06:10:14 PM: DEBUG [conexion.py:20] Pool de conexiones verificado correctamente.
+06:10:14 PM: DEBUG [conexion.py:25] Conexión #1 abierta y cerrada: id=2624530639776
+06:10:14 PM: DEBUG [conexion.py:25] Conexión #2 abierta y cerrada: id=2624530639776
+06:10:14 PM: DEBUG [conexion.py:25] Conexión #3 abierta y cerrada: id=2624530639776
+06:10:14 PM: DEBUG [conexion.py:25] Conexión #4 abierta y cerrada: id=2624530639776
+06:10:14 PM: DEBUG [conexion.py:25] Conexión #5 abierta y cerrada: id=2624530639776
+06:10:14 PM: DEBUG [conexion.py:25] Conexión #6 abierta y cerrada: id=2624530639776
+06:10:14 PM: DEBUG [conexion.py:25] Conexión #7 abierta y cerrada: id=2624530639776
+06:10:14 PM: DEBUG [conexion.py:25] Conexión #8 abierta y cerrada: id=2624530639776
+06:10:14 PM: DEBUG [conexion.py:25] Conexión #9 abierta y cerrada: id=2624530639776
+06:10:14 PM: DEBUG [conexion.py:25] Conexión #10 abierta y cerrada: id=2624530639776
+06:10:14 PM: DEBUG [conexion.py:28] Pool de conexiones cerrado correctamente.
+07:20:08 PM: DEBUG [persona_dao.py:74] 
+            Id Persona: 1, Nombre: Juan Carlos,
+            Apellido: Juarez, Email: cjjuarez@mail.com
+        
+07:20:08 PM: DEBUG [persona_dao.py:74] 
+            Id Persona: 2, Nombre: Ivonne,
+            Apellido: Gutierrez, Email: igutierrez@mail.com
+        
+07:20:08 PM: DEBUG [persona_dao.py:74] 
+            Id Persona: 3, Nombre: Carlos,
+            Apellido: Lara, Email: clara@mail.com
+        
+07:20:08 PM: DEBUG [persona_dao.py:74] 
+            Id Persona: 4, Nombre: Maria,
+            Apellido: Esparza, Email: mesparza@mail.com
+        
+07:20:08 PM: DEBUG [persona_dao.py:74] 
+            Id Persona: 5, Nombre: Rocio,
+            Apellido: Mijares, Email: rmijares@mail.com
+        
+07:20:08 PM: DEBUG [persona_dao.py:74] 
+            Id Persona: 6, Nombre: Alex,
+            Apellido: Rojas, Email: arojas@mail.com
+        
+07:20:13 PM: WARNING [_acompat.py:170] couldn't stop thread 'pool-1-worker-0' within 5.0 seconds
+07:20:13 PM: WARNING [_acompat.py:172] hint: you can try to call 'close()' explicitly or to use the pool as context manager
+07:20:18 PM: WARNING [_acompat.py:170] couldn't stop thread 'pool-1-worker-1' within 5.0 seconds
+07:20:18 PM: WARNING [_acompat.py:172] hint: you can try to call 'close()' explicitly or to use the pool as context manager
+07:20:23 PM: WARNING [_acompat.py:170] couldn't stop thread 'pool-1-worker-2' within 5.0 seconds
+07:20:23 PM: WARNING [_acompat.py:172] hint: you can try to call 'close()' explicitly or to use the pool as context manager
+07:20:28 PM: WARNING [_acompat.py:170] couldn't stop thread 'pool-1-scheduler' within 5.0 seconds
+07:20:28 PM: WARNING [_acompat.py:172] hint: you can try to call 'close()' explicitly or to use the pool as context manager
+07:22:13 PM: DEBUG [persona_dao.py:74] 
+            Id Persona: 1, Nombre: Juan Carlos,
+            Apellido: Juarez, Email: cjjuarez@mail.com
+        
+07:22:13 PM: DEBUG [persona_dao.py:74] 
+            Id Persona: 2, Nombre: Ivonne,
+            Apellido: Gutierrez, Email: igutierrez@mail.com
+        
+07:22:13 PM: DEBUG [persona_dao.py:74] 
+            Id Persona: 3, Nombre: Carlos,
+            Apellido: Lara, Email: clara@mail.com
+        
+07:22:13 PM: DEBUG [persona_dao.py:74] 
+            Id Persona: 4, Nombre: Maria,
+            Apellido: Esparza, Email: mesparza@mail.com
+        
+07:22:13 PM: DEBUG [persona_dao.py:74] 
+            Id Persona: 5, Nombre: Rocio,
+            Apellido: Mijares, Email: rmijares@mail.com
+        
+07:22:13 PM: DEBUG [persona_dao.py:74] 
+            Id Persona: 6, Nombre: Alex,
+            Apellido: Rojas, Email: arojas@mail.com
+        
+07:22:13 PM: DEBUG [persona_dao.py:78] Pool de conexiones cerrado correctamente.
+08:03:54 PM: INFO [menu_app_usuario.py:16] Usuario: 1 jperez 123
+08:03:54 PM: INFO [menu_app_usuario.py:16] Usuario: 2 kgomez 456
+08:05:59 PM: WARNING [_acompat.py:170] couldn't stop thread 'pool-1-worker-0' within 5.0 seconds
+08:05:59 PM: WARNING [_acompat.py:172] hint: you can try to call 'close()' explicitly or to use the pool as context manager
+08:06:02 PM: INFO [menu_app_usuario.py:17] Usuario: 1 jperez 123
+08:06:02 PM: INFO [menu_app_usuario.py:17] Usuario: 2 kgomez 456
+08:06:09 PM: INFO [menu_app_usuario.py:19] Salimos de la aplicación...
+08:06:09 PM: INFO [menu_app_usuario.py:21] Pool de conexiones cerrado correctamente.
+08:06:21 PM: INFO [menu_app_usuario.py:17] Usuario: 1 jperez 123
+08:06:21 PM: INFO [menu_app_usuario.py:17] Usuario: 2 kgomez 456
+08:06:25 PM: INFO [menu_app_usuario.py:19] Salimos de la aplicación...
+08:06:25 PM: INFO [menu_app_usuario.py:21] Pool de conexiones cerrado correctamente.
+08:09:58 PM: INFO [menu_app_usuario.py:18] Usuario: 1 jperez 123
+08:09:58 PM: INFO [menu_app_usuario.py:18] Usuario: 2 kgomez 456
+08:10:13 PM: INFO [menu_app_usuario.py:24] Usuarios insertados: 1
+08:10:18 PM: INFO [menu_app_usuario.py:18] Usuario: 1 jperez 123
+08:10:18 PM: INFO [menu_app_usuario.py:18] Usuario: 2 kgomez 456
+08:10:18 PM: INFO [menu_app_usuario.py:18] Usuario: 3 mlara 567
+08:10:34 PM: INFO [menu_app_usuario.py:31] usuarios actualizados: 1
+08:10:37 PM: INFO [menu_app_usuario.py:18] Usuario: 1 jperez 123
+08:10:37 PM: INFO [menu_app_usuario.py:18] Usuario: 2 kgomez 456
+08:10:37 PM: INFO [menu_app_usuario.py:18] Usuario: 3 mlara2 890
+08:10:49 PM: INFO [menu_app_usuario.py:36] usuarios eliminados: 1
+08:10:58 PM: WARNING [_acompat.py:170] couldn't stop thread 'pool-1-worker-0' within 5.0 seconds
+08:10:58 PM: WARNING [_acompat.py:172] hint: you can try to call 'close()' explicitly or to use the pool as context manager
+08:11:03 PM: WARNING [_acompat.py:170] couldn't stop thread 'pool-1-worker-1' within 5.0 seconds
+08:11:03 PM: WARNING [_acompat.py:172] hint: you can try to call 'close()' explicitly or to use the pool as context manager
+08:11:08 PM: WARNING [_acompat.py:170] couldn't stop thread 'pool-1-worker-2' within 5.0 seconds
+08:11:08 PM: WARNING [_acompat.py:172] hint: you can try to call 'close()' explicitly or to use the pool as context manager
+08:11:13 PM: WARNING [_acompat.py:170] couldn't stop thread 'pool-1-scheduler' within 5.0 seconds
+08:11:13 PM: WARNING [_acompat.py:172] hint: you can try to call 'close()' explicitly or to use the pool as context manager
+08:11:22 PM: INFO [menu_app_usuario.py:18] Usuario: 1 jperez 123
+08:11:22 PM: INFO [menu_app_usuario.py:18] Usuario: 2 kgomez 456
+08:11:33 PM: INFO [menu_app_usuario.py:36] usuarios eliminados: 0
+08:11:39 PM: INFO [menu_app_usuario.py:18] Usuario: 1 jperez 123
+08:11:39 PM: INFO [menu_app_usuario.py:18] Usuario: 2 kgomez 456
+08:11:44 PM: INFO [menu_app_usuario.py:38] Salimos de la aplicación...
+08:11:44 PM: INFO [menu_app_usuario.py:40] Pool de conexiones cerrado correctamente.
+08:11:51 PM: INFO [menu_app_usuario.py:18] Usuario: 1 jperez 123
+08:11:51 PM: INFO [menu_app_usuario.py:18] Usuario: 2 kgomez 456
+08:12:08 PM: WARNING [_acompat.py:170] couldn't stop thread 'pool-1-worker-0' within 5.0 seconds
+08:12:08 PM: WARNING [_acompat.py:172] hint: you can try to call 'close()' explicitly or to use the pool as context manager
+09:37:17 AM: INFO [menu_app_usuario.py:18] Usuario: 1 jperez 123
+09:37:17 AM: INFO [menu_app_usuario.py:18] Usuario: 2 kgomez 456
