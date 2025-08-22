@@ -676,3 +676,25 @@
 08:12:08 PM: WARNING [_acompat.py:172] hint: you can try to call 'close()' explicitly or to use the pool as context manager
 09:37:17 AM: INFO [menu_app_usuario.py:18] Usuario: 1 jperez 123
 09:37:17 AM: INFO [menu_app_usuario.py:18] Usuario: 2 kgomez 456
+09:41:21 AM: WARNING [_acompat.py:170] couldn't stop thread 'pool-1-worker-0' within 5.0 seconds
+09:41:21 AM: WARNING [_acompat.py:172] hint: you can try to call 'close()' explicitly or to use the pool as context manager
+09:41:26 AM: WARNING [_acompat.py:170] couldn't stop thread 'pool-1-worker-1' within 5.0 seconds
+09:41:26 AM: WARNING [_acompat.py:172] hint: you can try to call 'close()' explicitly or to use the pool as context manager
+09:41:31 AM: WARNING [_acompat.py:170] couldn't stop thread 'pool-1-worker-2' within 5.0 seconds
+09:41:31 AM: WARNING [_acompat.py:172] hint: you can try to call 'close()' explicitly or to use the pool as context manager
+09:41:36 AM: WARNING [_acompat.py:170] couldn't stop thread 'pool-1-scheduler' within 5.0 seconds
+09:41:36 AM: WARNING [_acompat.py:172] hint: you can try to call 'close()' explicitly or to use the pool as context manager
+09:41:38 AM: INFO [menu_app_usuario.py:38] Salimos de la aplicación...
+09:41:38 AM: INFO [menu_app_usuario.py:40] Pool de conexiones cerrado correctamente.
+09:42:04 AM: INFO [menu_app_usuario.py:24] Usuarios insertados: 1
+09:42:06 AM: INFO [menu_app_usuario.py:18] Usuario: 1 jperez 123
+09:42:06 AM: INFO [menu_app_usuario.py:18] Usuario: 2 kgomez 456
+09:42:06 AM: INFO [menu_app_usuario.py:18] Usuario: 3 roonny7 1234567890
+12:24:11 PM: WARNING [_acompat.py:170] couldn't stop thread 'pool-1-worker-0' within 5.0 seconds
+12:24:11 PM: WARNING [_acompat.py:172] hint: you can try to call 'close()' explicitly or to use the pool as context manager
+12:24:16 PM: WARNING [_acompat.py:170] couldn't stop thread 'pool-1-worker-1' within 5.0 seconds
+12:24:16 PM: WARNING [_acompat.py:172] hint: you can try to call 'close()' explicitly or to use the pool as context manager
+12:24:21 PM: WARNING [_acompat.py:170] couldn't stop thread 'pool-1-worker-2' within 5.0 seconds
+12:24:21 PM: WARNING [_acompat.py:172] hint: you can try to call 'close()' explicitly or to use the pool as context manager
+12:24:26 PM: WARNING [_acompat.py:170] couldn't stop thread 'pool-1-scheduler' within 5.0 seconds
+12:24:26 PM: WARNING [_acompat.py:172] hint: you can try to call 'close()' explicitly or to use the pool as context manager
